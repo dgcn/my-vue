@@ -2,3 +2,8 @@
 	display: flex;
 	justify-content: flex-end;
 }
+
+.vcenter{
+	display: flex;
+	align-items: center;
+}
