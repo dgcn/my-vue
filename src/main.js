@@ -5,6 +5,8 @@ import './plugins/element.js'
 import './assets/css/basis.css'
 import './assets/css/tag.css'
 import './assets/fonts/iconfont.css'
+import TreeTable from 'vue-table-with-tree-grid'
+Vue.component('tree-table', TreeTable)
 
 import axios from 'axios'
 Vue.prototype.$http = axios;
